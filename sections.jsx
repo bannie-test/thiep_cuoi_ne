@@ -175,7 +175,7 @@ function Events() {
             <div className="event-meta">
               <div className="event-row"><span className="key">Ngày</span><span className="val">Chủ nhật, 15 tháng 11, 2026</span></div>
               <div className="event-row"><span className="key">Giờ</span><span className="val">9:00 sáng</span></div>
-              <div className="event-row"><span className="key">Địa điểm</span><span className="val">Tư gia nhà gái — 248 Lý Thái Tổ, Q. 10, TP.HCM</span></div>
+              <div className="event-row"><span className="key">Địa điểm</span><span className="val">Tư gia nhà gái — Quang Rực, Khúc Thừa Dụ, Hải Phòng</span></div>
               <div className="event-row"><span className="key">Trang phục</span><span className="val">Áo dài truyền thống · Tone trầm</span></div>
             </div>
           </div>
@@ -185,7 +185,7 @@ function Events() {
             <div className="event-meta">
               <div className="event-row"><span className="key">Ngày</span><span className="val">Chủ nhật, 15 tháng 11, 2026</span></div>
               <div className="event-row"><span className="key">Giờ</span><span className="val">18:00 — đón khách<br/>19:00 — khai tiệc</span></div>
-              <div className="event-row"><span className="key">Địa điểm</span><span className="val">Riverside Palace · Sảnh Diamond — 360D Bến Vân Đồn, Q. 4</span></div>
+              <div className="event-row"><span className="key">Địa điểm</span><span className="val">Nhà văn hóa thôn Cuối Chùa, Tây Phương, Hà Nội</span></div>
               <div className="event-row"><span className="key">Trang phục</span><span className="val">Lịch sự · Tone be / cát / xanh rêu</span></div>
             </div>
           </div>
@@ -201,7 +201,7 @@ function Schedule() {
     { t: "08:30", h: "Đón nhà trai", d: "Hai họ gặp mặt, dùng trà & bánh tại tư gia nhà gái." },
     { t: "09:00", h: "Lễ Vu Quy", d: "Nghi lễ truyền thống, trao nhẫn cưới." },
     { t: "11:00", h: "Tiệc gia đình", d: "Bữa cơm thân mật cùng hai họ." },
-    { t: "18:00", h: "Đón khách", d: "Chào đón quan khách tại Riverside Palace." },
+    { t: "18:00", h: "Đón khách", d: "Chào đón quan khách tại Nhà văn hóa thôn Cuối Chùa." },
     { t: "19:00", h: "Khai tiệc", d: "Nghi thức rót rượu, cắt bánh, lễ tri ân." },
     { t: "20:30", h: "Tiệc & âm nhạc", d: "Buổi tối cùng âm nhạc, khiêu vũ và lời chúc." },
     { t: "22:00", h: "Tiễn khách", d: "Cùng nhau khép lại một ngày trọng đại." },
@@ -273,10 +273,9 @@ function Venue() {
             </svg>
           </div>
           <div className="venue-info reveal" data-delay="1">
-            <h3>Riverside Palace<br/><em className="italic dim">Sảnh Diamond</em></h3>
-            <p>360D Bến Vân Đồn, Phường 1</p>
-            <p>Quận 4, TP. Hồ Chí Minh</p>
-            <p className="dim" style={{marginTop: 18, fontSize: 14}}>Có chỗ đậu xe miễn phí · Tầng B1<br/>Lối vào sảnh tiệc cuối hành lang phải</p>
+            <h3>nhà văn hóa thôn Cuối Chùa<br/><em className="italic dim"></em></h3>
+            <p>Tây Phương, Hà Nội</p>
+            <p className="dim" style={{marginTop: 18, fontSize: 14}}>Có chỗ đậu xe miễn phí<br/></p>
             <div className="venue-btns">
               <a className="btn primary" href="https://maps.google.com/?q=Riverside+Palace+Ben+Van+Don" target="_blank" rel="noreferrer">
                 Mở Google Maps <span className="arrow"></span>
